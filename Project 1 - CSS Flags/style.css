@@ -3,11 +3,18 @@ html, body {
     margin: 0;
 }
 
+.france-name {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .france-base {
     position: absolute;
-    width: 600px;
+    width: 598px;
     height: 398px;
-    top: 60px;
+    top: 30px;
     left: calc(50% - 300px);
     background-color: white;
     border: 1px solid black;
@@ -17,7 +24,7 @@ html, body {
     position: absolute;
     width: 200px;
     height: 400px;
-    top: 60px;
+    top: 30px;
     left: calc(50% - 300px);
     background-color: #002654;
 }
@@ -26,7 +33,42 @@ html, body {
     position: absolute;
     width: 200px;
     height: 400px;
-    top: 60px;
+    top: 30px;
     left: calc(50% + 100px);
     background-color: rgb(206, 17, 38);
+}
+
+.netherlands-name {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.netherlands-base {
+    position: absolute;
+    width: 598px;
+    height: 398px;
+    top: 500px;
+    left: calc(50% - 300px);
+    background-color: white;
+    border: 1px solid black;
+}
+
+.netherlands1 {
+    position: absolute;
+    width: 600px;
+    height: 140px;
+    top: 500px;
+    left: calc(50% - 300px);
+    background-color: rgb(175, 27, 39);
+}
+
+.netherlands2 {
+    position: absolute;
+    width: 600px;
+    height: 140px;
+    top: calc(500px + 140px + 120px);
+    left: calc(50% - 300px);
+    background-color: rgb(30, 68, 139);
 }
