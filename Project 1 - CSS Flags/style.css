@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.france-base {
+    position: absolute;
+    width: 600px;
+    height: 398px;
+    top: 60px;
+    left: calc(50% - 300px);
+    background-color: white;
+    border: 1px solid black;
+}
+
+.france1 {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: 60px;
+    left: calc(50% - 300px);
+    background-color: #002654;
+}
+
+.france2 {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: 60px;
+    left: calc(50% + 100px);
+    background-color: rgb(206, 17, 38);
+}
